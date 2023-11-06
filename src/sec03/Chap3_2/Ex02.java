@@ -1,4 +1,4 @@
-package Chap3_2;
+package sec03.Chap3_2;
 
 public class Ex02 {
     //  float의 최대값과 최소값
