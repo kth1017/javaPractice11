@@ -1,4 +1,4 @@
-package sec03.Chap3_2;
+package sec03.Chap02;
 
 public class Ex04 {
     float flt01 = 4.124f;

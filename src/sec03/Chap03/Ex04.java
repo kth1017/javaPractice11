@@ -1,4 +1,4 @@
-package sec03.Chap3_3;
+package sec03.Chap03;
 
 public class Ex04 {
     int x = 1, y = 2;
