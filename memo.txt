@@ -57,4 +57,9 @@
 #if
 - 인텔리제이 단축어 foreach
 
+#switch
+- break 없으면 case 틀려도 내부 출력
+
+#for
+- 최대한 변수를 줄일수록 안전한 for loop(lambda도 마찬가지)
 
