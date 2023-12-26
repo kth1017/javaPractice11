@@ -106,3 +106,6 @@
 #레코드
 - 16부터 도입, class와 enum의 중간
 - inner class처럼 클래스 내부 사용 가능
+
+#time
+- java.util > java.time
