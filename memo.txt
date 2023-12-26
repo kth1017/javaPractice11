@@ -105,7 +105,15 @@
 
 #레코드
 - 16부터 도입, class와 enum의 중간
+<<<<<<< HEAD
 - inner class처럼 클래스 내부 사용 가능
 
 #time
 - java.util > java.time
+=======
+- inner class처럼 클래스 내부 사용 가능0
+
+#라이브러리
+- 랜덤은 시드 설정 중요
+- 빌더와 버퍼 선택
+>>>>>>> cab73eef9af38d54aebcfac81a1629e3dc2afc45
