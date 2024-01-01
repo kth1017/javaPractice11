@@ -3,9 +3,9 @@ package self;
 import java.math.BigDecimal;
 
 public class Prac1 {
-    public static void main(String[] args) {
+    public static void main(StringPrac[] args) {
         // 매개변수 args
-        for (String arg : args) {
+        for (StringPrac arg : args) {
             System.out.println(arg);
         }
 
