@@ -116,8 +116,8 @@
 
 #time
 - java.util > java.time
-=======
-- inner class처럼 클래스 내부 사용 가능0
+- Joda-Time 기반
+- 멀티쓰레드 세잎
 
 #라이브러리
 - 랜덤은 시드 설정 중요

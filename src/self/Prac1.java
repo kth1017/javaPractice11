@@ -1,6 +1,10 @@
 package self;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 
 public class Prac1 {
     public static void main(StringPrac[] args) {
@@ -58,5 +62,19 @@ public class Prac1 {
     int fact4 = factorial(4);
     int fact5 = factorial(5);
 
+    // time
 
+    LocalDateTime familyDinner = LocalDateTime.of(
+            2023, 12, 25, 18, 00
+    );
+
+    LocalTime thisTime = LocalTime.now();
+    LocalTime hourAndHalfLater = thisTime
+            .plusHours(1)
+            .plusMinutes(30);
+
+    ZonedDateTime newYorkNewYear = ZonedDateTime.of(
+            2023, 1, 1,
+            0, 0, 0, 0,
+            ZoneId.of("America/New_York"));
 }
