@@ -37,16 +37,7 @@ public class Prac1 {
                 .divide(new BigDecimal("0.3"))
                 .doubleValue();
 
-        double num10 = new BigDecimal("0.9")
-                .remainder(new BigDecimal("0.6"))
-                .doubleValue();
     }
-
-    // 버퍼 빌더
-
-    CharSequence cs1 = "ABC";
-    CharSequence cs2 = new StringBuffer();
-    CharSequence cs3 = new StringBuilder();
 
     /*
     꼬리 재귀
