@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.util.*;
 
 public class Prac1 {
     public static void main(StringPrac[] args) {
@@ -68,4 +69,21 @@ public class Prac1 {
             2023, 1, 1,
             0, 0, 0, 0,
             ZoneId.of("America/New_York"));
+
+    ArrayList<Integer> ints1 = new ArrayList<>(
+            Arrays.asList(1, 2, 3, 4, 5)
+    );
+
+    ArrayList<Integer> ints3 = new ArrayList<>(ints1);
+
+    Map<Integer, String> intStrMap = new HashMap<>();
+
+    List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5);
+    ArrayList<Integer> list2 = new ArrayList<>(list1);
+
+    String list1Type = list1.getClass().getName();
+    String list2Type = list2.getClass().getName();
+
+
+
 }
