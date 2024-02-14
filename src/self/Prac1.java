@@ -84,6 +84,24 @@ public class Prac1 {
     String list1Type = list1.getClass().getName();
     String list2Type = list2.getClass().getName();
 
+    Set<Integer> intHSet = new HashSet<>(
+            Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9)
+    );
+
+    Iterator<Integer> intItor = intHSet.iterator();
+
+    Integer int1 = intItor.next();
+    Integer int2 = intItor.next();
+    Integer int3 = intItor.next();
+
+    boolean hasNext = intItor.hasNext();
+
+//    for (Integer num : intHSet) {
+//        if (num % 3 == 0) intHSet.remove(num);
+//    }
+
+
+
 
 
 }

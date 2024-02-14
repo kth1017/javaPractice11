@@ -169,6 +169,7 @@
 # list set map
 # comparable
 # iterator
+- foreach 사용시 주의 / 엔트리의 컬렉션 이터레이트 가능
 
 ! 자바엔 call by value만 존재
 (자바에서 call by reference가 있다고 배우는 경우 보통 reference value[쉽게 말해 포인터]타입과 용어가 혼동)
