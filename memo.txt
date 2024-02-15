@@ -168,6 +168,8 @@
 
 # list set map
 # comparable
+- 컬렉션에선 정렬에 comparator
+- comparable 기본 적용
 # iterator
 - foreach 사용시 주의 / 엔트리의 컬렉션 이터레이트 가능
 
