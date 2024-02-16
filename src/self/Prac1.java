@@ -8,6 +8,11 @@ import java.time.ZonedDateTime;
 import java.util.*;
 
 public class Prac1 {
+    // 자바 규칙에 따라 반드시 메소드 호출은 메소드 내부에서 이루어져야 함
+    Set<Integer> intHSet1 = new HashSet<>();
+    public void a(){
+        intHSet1.add(1);
+    }
     public static void main(StringPrac[] args) {
         // 매개변수 args
         for (StringPrac arg : args) {
