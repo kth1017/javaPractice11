@@ -193,7 +193,13 @@
 - finally는 return 이후에도 반드시 실행
 # throws(메소드<>호출부)
 - 떠 넘겨도 호출하는 쪽에선 결국 처리해줘야함(하지만 호출하는 쪽에 throws는 권장되지 않음)
-- 되던지기 가능
+- 되던지기 가능(이 경우 메소드가 예외를 처리하고 넘기기에 가능하며 일반적으론 반드시 예외를 명시적으로 던져야 함)
+- chained exception의 경우 initCause로 chain
+# try with resources(java 7~)
+- finally 대신 사용(try catch에 이어 finally까지 사용시 가독성이 떨어지고 실수의 여지도 있음)
+# Optional
+- 매번 NPE에 try catch사용이 번거로워 등장
+! 예외 처리 마지막 강은 스트림 학습 이후 다시 볼 것
 
 @ 11
 

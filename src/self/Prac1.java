@@ -13,11 +13,11 @@ public class Prac1 {
     public void a(){
         intHSet1.add(1);
     }
-    public static void main(StringPrac[] args) {
-        // 매개변수 args
-        for (StringPrac arg : args) {
-            System.out.println(arg);
-        }
+    public static void main(String[] args) {
+
+        MyGeneric<String> test = new MyGeneric<>("hello");
+        System.out.println(test.getValue());
+
 
         // 타입 추론
         for (var i = 0; i < 10; i++) {
@@ -110,10 +110,6 @@ public class Prac1 {
 //        public int compare(String o1, String o2) {
 //            return o1.length() - o2.length();
 //        }
-
-
-
-
 
 
 
