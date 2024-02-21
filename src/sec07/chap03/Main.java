@@ -14,6 +14,8 @@ public class Main {
         String randStr = pickRandom("마루치", "아라치");
 
 
+
+
     }
 
     //  선언시 아래와 같이 자료형에 각 타입변수의 자료형을 명시
@@ -39,4 +41,6 @@ public class Main {
             new Pocket<>("전우치", 30, true),
             new Pocket<>("임꺽정", 27, true),
     };
+
+
 }
