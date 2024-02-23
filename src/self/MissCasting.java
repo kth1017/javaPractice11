@@ -26,6 +26,7 @@ public class MissCasting {
         MyInterface myInterfaceObj = new MyClass();
 
 
+
         // 잘못된 캐스팅 - 실제로는 MyClass 객체이지만 MyInterface 타입으로 캐스팅
         // 이 시점에서는 컴파일 오류가 발생하지 않습니다.
         MyClass myClassObj = (MyClass) myInterfaceObj;
