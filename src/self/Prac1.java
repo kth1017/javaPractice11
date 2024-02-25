@@ -1,7 +1,6 @@
 package self;
 
-import game.Side;
-import game.Unit;
+import game.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -38,7 +37,14 @@ public class Prac1 {
                                 new Knight(Side.RED),
                                 new Knight(Side.RED))
                 )
-        );.'fdrs' ''
+        );
+
+        Map<Integer, String> numNameHMapClone = new HashMap<>();
+        numNameHMapClone.putAll(numNameHMap);
+
+        Set<Integer> numSet = numNameHMap.keySet();
+        Set<Integer> numHSet = new HashSet<>();
+        numHSet.addAll(numSet);
 
 
 
