@@ -1,5 +1,8 @@
 package self;
 
+import game.Side;
+import game.Unit;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -14,6 +17,30 @@ public class Prac1 {
         intHSet1.add(1);
     }
     public static void main(String[] args) {
+
+        Map<Integer, String> numNameHMap = new HashMap<>();
+
+        Map<Side, ArrayList<Unit>> sideUnitsHMap = new HashMap<>();
+        sideUnitsHMap.put(
+                Side.BLUE,
+                new ArrayList<>(
+                        Arrays.asList(
+                                new Swordman(Side.BLUE),
+                                new Knight(Side.BLUE),
+                                new MagicKnight(Side.BLUE))
+                )
+        );
+        sideUnitsHMap.put(
+                Side.RED,
+                new ArrayList<>(
+                        Arrays.asList(
+                                new Knight(Side.RED),
+                                new Knight(Side.RED),
+                                new Knight(Side.RED))
+                )
+        );.'fdrs' ''
+
+
 
         MyGeneric<String> test = new MyGeneric<>("hello");
         System.out.println(test.getValue());

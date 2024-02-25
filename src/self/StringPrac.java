@@ -12,14 +12,13 @@ public class StringPrac {
 
         String[] strAry = { "감자", "당근", "오이", "양파" };
         StringJoiner strJnr1 = new StringJoiner(",", "<", ">");
-        StringJoiner strJnr2 = new StringJoiner(" / ", "{{ ", " }}");
 
         for (String s : strAry) {
             strJnr1.add(s);
-            strJnr2.add(s);
+
         }
 
         String joined1 = strJnr1.toString();
-        String joined2 = strJnr2.toString();
+
     }
 }
