@@ -176,11 +176,18 @@
 - 배열 변환시 object가 아닌 형변환을 위해선 변환시에 함수 지정 필요(명시적 형변환 불가)
 - 스택 큐 구현시 LinkedList보다 더 ArrayDeque가 성능이 좋음
 - Arrays 사용 실수 조심
+
+# set
+- hash를 정렬을 목적으로 사용하지 말 것(일정 개수 이하에선 로직상 정렬된 것처럼 보임)
+- 객체로 treeset 사용시 당연히 comparator가 추가되어야 함(컴파일 상으론 돌아가긴 함)
+
 # comparable
 - 컬렉션에선 정렬에 comparator
 - comparable 기본 적용
+
 # iterator
-- foreach 사용시 주의 / 엔트리의 컬렉션 이터레이트 가능
+- 이터레이터 사용시 부분 순회 코드 쉽게 구현 가능
+- foreach 사용시 이터레이터나 필터 사용(foreach에선 사용 전체 객체가 변경될 수 있는 remove 사용 금지[for 등 지역변수 사용의 경우는 가능])
 
 ! 자바엔 call by value만 존재
 (자바에서 call by reference가 있다고 배우는 경우 보통 reference value[쉽게 말해 포인터]타입과 용어가 혼동)
