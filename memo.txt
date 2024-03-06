@@ -216,6 +216,8 @@
 
 # 예외처리
 - error는 보통 시스템 레벨 문제 exception은 대비 가능
+- 의도적인 예외 래핑으로 추상화 수준을 높이는 대신 디버깅이 어려워짐
+
 # try catch
 - default처럼 catch도 여러개 가능 & 부분 -> 전체
 - finally는 return 이후에도 반드시 실행
@@ -274,4 +276,10 @@
 - concurrentHashMap의 경우 key별 구획을 지정하고 작업(성능도 더 좋을 때 많음)
 - Atomic 클래스는 필드를 쓰레드 세잎하게
 - AtomicReference의 경우 감싸주는 참조값은 atomic이지만 인스턴스 자체는 아님
+
+@ 12
+
+# io
+- 쓰레드 세잎 x, os간 호환시 문제(경로 처리) > nio로 대체(현재는 거의 안씀)
+
 
