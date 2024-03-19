@@ -324,6 +324,7 @@
 # 자바독
 - 인텔리제이 통합 기능 숙지
 - 경로명 한글 포함시 error: cannot read Input length = 1
+- 인텔리제이 자바독 사용시 misc.xml에 관련 항목 업데이트
 
 @ 14
 
@@ -331,6 +332,10 @@
 
 # jar
 - Java ARchive : 클래스파일, 메타데이터, 리소스 파일
+
+# 라이브러리
+- Gson 역직렬화시 주의
+- junit에서 testImplementation testRuntimeOnly
 
 
 
