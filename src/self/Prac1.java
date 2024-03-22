@@ -169,7 +169,32 @@ public class Prac1 {
         list.add("고구마");
         list.add("호박");
         System.out.println(list);
+
+        System.out.println("\n- - - - -\n");
+
+        String str1 = "Hello World! Welcome to the world of Java~";
+
+        str1.chars().forEach(System.out::println);
+
+        System.out.println("\n- - - - -\n");
+
+        char str1MaxChar = (char) str1.chars()
+                .max() // OptionalInt 반환 - 이후 배울 것
+                //.min()
+                .getAsInt();
+
+        str1.chars()
+                //.sorted()
+                //.distinct()
+                //.filter(i -> (i >= 'A' && i <= 'Z') || (i >= 'a' && i <= 'z'))
+                .forEach(i -> System.out.print((char) i));
+
+
+
+
     }
+
+
 
 
 
