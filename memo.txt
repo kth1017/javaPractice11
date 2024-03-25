@@ -326,13 +326,16 @@
 - 인텔리제이 통합 기능 숙지
 - 경로명 한글 포함시 error: cannot read Input length = 1
 - 인텔리제이 자바독 사용시 misc.xml에 관련 항목 업데이트
+- 사용시 오라클 문서 참고
 
 @ 14
 
 # 소스패스 클래스패스
+- javac 명령은 터미널로 경로만 맞춘다고 되지 않음 > 소스패스 설정(환경변수와 비슷)
 
 # jar
 - Java ARchive : 클래스파일, 메타데이터, 리소스 파일
+- jar 파일을 dependencies 등록해서 라이브러리로 import 가능
 
 # 빌드 도구
 - jCenter 등 mavenCentral 중앙 저장소
